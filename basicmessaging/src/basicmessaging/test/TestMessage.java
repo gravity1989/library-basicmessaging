@@ -7,9 +7,9 @@ public class TestMessage extends BaseMessage{
 
 	String val;
 	
-	public TestMessage(MessageType mType)
+	public TestMessage()
 	{
-		super(mType);
+		super(MessageType.TEST_PING);
 	}
 
 	public String getVal() {
