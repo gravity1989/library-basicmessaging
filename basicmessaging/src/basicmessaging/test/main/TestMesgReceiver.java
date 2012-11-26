@@ -1,7 +1,7 @@
-package basicmessaging.main.test;
+package basicmessaging.test.main;
 
 import basicmessaging.ConnectionListener;
-import basicmessaging.messagehandler.TestMessageHandler;
+import basicmessaging.test.TestMessageHandler;
 
 public class TestMesgReceiver {
 

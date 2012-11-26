@@ -1,8 +1,8 @@
-package basicmessaging.messagehandler;
+package basicmessaging.test;
 
 import basicmessaging.message.BaseMessage;
 import basicmessaging.message.MessageType;
-import basicmessaging.message.TestMessage;
+import basicmessaging.messagehandler.MessageHandler;
 
 public class TestMessageHandler implements MessageHandler {
 

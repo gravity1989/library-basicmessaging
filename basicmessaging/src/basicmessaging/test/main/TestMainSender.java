@@ -1,8 +1,8 @@
-package basicmessaging.main.test;
+package basicmessaging.test.main;
 
 import basicmessaging.MessageSender;
 import basicmessaging.message.MessageType;
-import basicmessaging.message.TestMessage;
+import basicmessaging.test.TestMessage;
 
 
 public class TestMainSender {

@@ -1,4 +1,6 @@
-package basicmessaging.message;
+package basicmessaging.test;
+
+import basicmessaging.message.BaseMessage;
 
 public class TestMessage extends BaseMessage{
 
