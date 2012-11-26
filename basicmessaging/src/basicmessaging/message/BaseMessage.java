@@ -5,6 +5,15 @@ import java.io.Serializable;
 public class BaseMessage implements Serializable{
 	MessageType mesgType;
 
+	BaseMessage()
+	{
+
+	}
+	public BaseMessage(MessageType mType)
+	{
+		this.mesgType = mType; 
+	}
+
 	public MessageType getMesgType() {
 		return mesgType;
 	}
